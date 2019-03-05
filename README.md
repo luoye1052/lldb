@@ -1,10 +1,15 @@
 # lldb
 1.quit//退出
+
 2.b//输出断点信息
+
             事例：6: file = '/Users/yubing/Desktop/sdimage1/sdimage/ViewController.m', line = 45,    exact_match = 0, locations = 1, resolved = 1, hit count = 1 
               6.1: where = sdimage`-[ViewController btn:] + 42 at ViewController.m:45, address = 0x000000010807106a, resolved, hit count = 1 
+              
 3. b  test    //设置断点在test函数下
+
 4. bt        //打印栈信息
+
 5. call      //调用函数self.view.backgroundColor=[UIColor yellowcolor];
 6. c        //程序继续执行。
 7. n        //单步执行不进入子函数。
